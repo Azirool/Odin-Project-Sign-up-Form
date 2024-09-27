@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.logo-text{
+    font-family: 'Norse', sans-serif;
+    font-size: 50px;
+}
+
+.left-side {
+    position: relative;
+    flex: 1;
+}
+
+.bg-images{
+    width: 400px;
+    height: 100%;
+}
+
+.bg-logo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #fff;
+    width: 400px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 150px;
+}
+
+.logo-images{
+    height: 90px;
+    width: 65px;
+}
