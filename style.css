@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
 
 html, body {
     height: 100%;
@@ -18,7 +18,7 @@ body {
     max-width: 1000px; 
 }
 
-.logo-text{
+.logo-text {
     font-family: 'Norse', sans-serif;
     font-size: 80px;
 }
@@ -58,11 +58,13 @@ body {
 }
 
 .right-side {
-    background-color: #ececeb;
+    background-color: #F9FAFB;
     width: 1000px;
-    padding: 20px;
 }
 
+.heading {
+    padding: 20px;
+}
 .heading-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -70,8 +72,8 @@ body {
     font-size: 20px;
 }
 
-.form {
-    background-color: #cfcfce;
+.form-container {
+    background-color: #FFFFFF;
 }
 
 .form-heading {
@@ -79,4 +81,64 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 22px;
+    padding-left: 20px;
+}
+
+.table_component {
+    overflow: auto;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.table_component table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px; 
+    text-align: left;
+}
+
+.table_component td {
+    color: #000000;
+    padding: 5px;
+    width: 50%; 
+}
+
+.table_component label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 35px; 
+    padding: 5px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus:valid {
+    border-color: blue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+}
+
+.error-message {
+    color: red; /* Text color for error message */
+    font-size: 12px; /* Font size */
+    height: 20px; /* Fixed height to avoid layout shifting */
+    margin-top: 5px; /* Space between input and error message */
+    display: none; /* Hidden by default */
 }
