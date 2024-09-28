@@ -132,13 +132,13 @@ input:invalid {
 
 .input-container {
     display: flex;
-    flex-direction: column; /* Stack label and input vertically */
+    flex-direction: column; 
 }
 
 .error-message {
-    color: red; /* Text color for error message */
-    font-size: 12px; /* Font size */
-    height: 20px; /* Fixed height to avoid layout shifting */
-    margin-top: 5px; /* Space between input and error message */
-    display: none; /* Hidden by default */
+    color: red; 
+    font-size: 12px; 
+    height: 20px; 
+    margin-top: 5px; 
+    display: none; 
 }
