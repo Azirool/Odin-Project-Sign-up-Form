@@ -142,3 +142,19 @@ input:invalid {
     margin-top: 5px; 
     display: none; 
 }
+
+.sign-up-section{
+    padding-left: 26px;
+    margin-top: 20px;
+}
+
+.create-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #596D48;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+}
